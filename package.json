@@ -1,10 +1,10 @@
 {
-  "name": "remote-ftp",
+  "name": "pulsar-remote-ftp",
   "main": "./lib/remote-ftp",
   "version": "2.2.4",
-  "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
+  "description": "Madison Solutions's fork of Icetee remote-ftp. Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
   "activationCommands": [],
-  "repository": "https://github.com/icetee/remote-ftp",
+  "repository": "https://github.com/madison-web-solutions/pulsar-remote-ftp",
   "license": "MIT",
   "engines": {
     "atom": ">=1.22.1 <2.0.0"
@@ -29,8 +29,7 @@
     "fs-plus": "^3.1.1",
     "ignore": "^4.0.6",
     "ssh-config": "^3.0.0",
-    "ssh2": "^0.8.7",
-    "ssh2-streams": "^0.4.8",
+    "ssh2": "^1.16.0",
     "strip-json-comments": "^2.0.1"
   },
   "devDependencies": {

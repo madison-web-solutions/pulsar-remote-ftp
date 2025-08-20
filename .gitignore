@@ -4,4 +4,3 @@ node_modules
 .ftpconfig*
 .ftpignore
 tmp
-package-lock.json
